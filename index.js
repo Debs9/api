@@ -14,7 +14,6 @@ app.get("/", (req, res) => {        // Cria a rota da raiz do projeto
   console.log("Rota / solicitada");
 });
 
-
 app.get("/usuarios", async (req, res) => {
   console.log("Rota GET/usuarios solicitada");
   try {
