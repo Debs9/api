@@ -40,8 +40,7 @@ async function deleteUsuario(id) {
   const query = "DELETE FROM usuario WHERE id = $1";
   await client.query(query, [id]);
 }
-//bd.js
-export { selectUsuarios, selectUsuario, insertUsuario, deleteUsuario };
+
 
 //bd.js
 async function updateUsuario(data) {
